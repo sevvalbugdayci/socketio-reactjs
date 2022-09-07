@@ -1,7 +1,7 @@
 import socketClient from 'socket.io-client'
 
 let socket;
-const SERVER='http://localhost:5000'
+const SERVER='http://localhost:5001'
 const logToConsole=(data)=>{
     console.log('data',new Date(data))
 }
