@@ -4,7 +4,7 @@ module.exports = {
     init: (server) => {
         io = socket(server, {
             path: "/my-custom-path/",
-            pingTimeout: 30000,
+            pingTimeout: 20000,
             cors: {
                 origin: '*',
                 method: ['GET']
